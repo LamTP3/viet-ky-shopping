@@ -1,19 +1,3 @@
-// import { RouterProvider } from "react-router-dom";
-// import { router } from "./routes/routes";
-// import { Toaster } from "sonner";
-
-// function App() {
-//   return (
-//     <div>
-//       <Toaster position="top-right" richColors expand />
-
-//       <RouterProvider router={router} />
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import React, { useMemo, useState, useEffect, useRef } from "react";
 
 /**
