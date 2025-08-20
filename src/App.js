@@ -350,19 +350,6 @@ export default function App() {
           <p className="mt-3 text-neutral-600">
             Ghi dấu bản sắc - Kết nối thế hệ
           </p>
-          <div className="mt-5 flex gap-3">
-            <label className="cursor-pointer">
-              <input
-                type="file"
-                accept="image/*"
-                className="hidden"
-                onChange={handleLogoUpload}
-              />
-              <span className="rounded-2xl px-4 py-2 border">
-                Tải logo của bạn
-              </span>
-            </label>
-          </div>
         </div>
         <div className="rounded-3xl bg-white p-5 shadow-sm border">
           <div className="grid grid-cols-3 gap-3">
